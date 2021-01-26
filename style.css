@@ -1,0 +1,89 @@
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    color: white;
+    font-family:'Heebo', sans-serif;
+    font-size: 3rem;
+}
+
+.slider {
+    background: white !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.hide {
+    background:black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+
+.titlee {
+    width: auto !important;
+    text-align: center !important;
+    margin-top: 150px !important;
+    font-size: 100px;
+    font-family: 'Lobster', cursive !important;
+}
+
+.hr-title {
+    width: 50% !important;
+    text-align: center !important;
+    position: fixed;
+    margin-left: 400px  !important;
+    position: fixed !important; 
+}
+
+.cat-1 {
+    width: auto;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.cat-1:hover {
+    cursor: pointer !important;
+}
+
+.parf {
+    width: auto;
+    text-align: center;}
+
+.cat2 {
+    width: 40% !important;
+    text-align: center !important;
+    margin-left: 400px ;
+    margin-top: 60px;
+}
+
+.cat3 {
+    width: 50%;
+    text-align: center;
+    margin-left: 400px ;
+    margin-bottom: 100px;
+    float:inline-start !important;
+    clear:right !important;
+    transform-style: preserve-3d;
+    border-radius: 20% !important;
+    padding: 0rem 0rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    height: auto;
+}
